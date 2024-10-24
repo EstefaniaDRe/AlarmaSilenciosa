@@ -2,6 +2,7 @@
   "name": "nodemail-bosques",
   "version": "1.0.0",
   "dependencies": {
+    "nodemail-bosques": "file:",
     "nodemailer": "^6.0.0"
   },
   "main": "index.js",
