@@ -37,7 +37,7 @@ module.exports = async (req, res) => {
       port: 465,
       secure: true,
       auth: {
-        user: "alarma@bosques.edu.mx",
+        user: "alarma@bosques.edu.mx", "dd8466958@gmail.com",
         pass: "yqma thba pkny enbe ",  // Considera mover esto a variables de entorno por seguridad
       },
     });
