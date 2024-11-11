@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
 
     const mailOptions = {
       from: "alarma@bosques.edu.mx",
-      to: "cobossanti071@gmail.com",
+      to: "yhernandez@bosques.edu.mx",
       subject: `Alerta de Siniestro: ${type}`,
       text: message,
       html: `<h3>${message}</h3>`,
