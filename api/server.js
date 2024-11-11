@@ -26,7 +26,7 @@ module.exports = async (req, res) => {
 
     const mailOptions = {
       from: "alarma@bosques.edu.mx",
-      to: "hs_admivos@bosques.edu.mx",
+      to: "cobossanti071@gmail.com",
       subject: `Alerta de Siniestro: ${type}`,
       text: message,
       html: `<h3>${message}</h3>`,
@@ -44,7 +44,7 @@ module.exports = async (req, res) => {
 
     try {
       await transporter.sendMail(mailOptions);
-      res.status(200).json({ message: 'Correo enviado correctamente cbos' });
+      res.status(200).json({ message: 'Correo enviado correctamente prueba' });
     } catch (error) {
       res.status(500).json({ message: 'Error al enviar el correo', error });
     }
