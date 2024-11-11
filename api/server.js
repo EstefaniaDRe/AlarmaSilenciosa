@@ -44,7 +44,7 @@ module.exports = async (req, res) => {
 
     try {
       await transporter.sendMail(mailOptions);
-      res.status(200).json({ message: 'Correo enviado correctamente prueba' });
+      res.status(200).json({ message: 'Correo enviado correctamente' });
     } catch (error) {
       res.status(500).json({ message: 'Error al enviar el correo', error });
     }
